@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12609" started-at="2018-07-31T07:53:33Z" finished-at="2018-07-31T07:53:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12609" started-at="2018-07-31T07:53:33Z" finished-at="2018-07-31T07:53:46Z">
+      <class name="RunnerClass">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:RunnerClass@a38d7a3]" name="openBrowser" is-config="true" duration-ms="2907" started-at="2018-07-31T07:53:33Z" finished-at="2018-07-31T07:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="f()[pri:0, instance:RunnerClass@a38d7a3]" name="f" duration-ms="9594" started-at="2018-07-31T07:53:36Z" finished-at="2018-07-31T07:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RunnerClass@a38d7a3]" name="closeBrowser" is-config="true" duration-ms="76" started-at="2018-07-31T07:53:46Z" finished-at="2018-07-31T07:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
