@@ -11,18 +11,20 @@ public class RunnerClass {
 	public String baseUrl = "http://demo.guru99.com/test/newtours/";
 	
   @Test
-  public void f() {     
-      driver.get(baseUrl);
+  public void f() {  
+	  driver.get(baseUrl);
       String expectedTitle = "Welcome: Mercury Tours";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
+      System.out.println("Running f function");
       
   }
   @BeforeMethod
   public void openBrowser() {
 	  System.setProperty("webdriver.chrome.driver", "C:/ChromeDriver/chromedriver.exe");
 	  driver = new ChromeDriver();
-	  System.out.println("launching firefox browser"); 
+	  System.out.println("launching firefox browser");
+	  System.out.println("Running f function");
   }
 
   @AfterMethod
